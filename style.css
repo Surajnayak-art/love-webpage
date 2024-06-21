@@ -6,7 +6,7 @@ body {
     padding: 0;
     overflow-x: hidden; /* Allow vertical scrolling */
     position: relative;
-    background: url('../static/images/img.png') no-repeat center center fixed;
+    background: url('img.png') no-repeat center center fixed;
     background-size: cover;
 }
 
