@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love for My Girlfriend</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{('static', filename='style.css') }}">
 </head>
 <body>
     <audio autoplay loop>
@@ -24,9 +24,9 @@ I really need to clear the air and make things right. You're too important to me
        
         <div class="gallery">
             <h2>Your Memories</h2>
-            <img src="{{ url_for('static', filename='pic1') }}" alt="Pic 1">
-            <img src="{{ url_for('static', filename='pic2') }}" alt="Pic 2">
-            <img src="{{ url_for('static', filename='pic3') }}" alt="Pic 3">
+            <img src="{{ url_for('static', filename='"C:\Users\pc\Desktop\love-webpage\pic1.jpg"') }}" alt="Pic 1">
+            <img src="{{ url_for('static', filename='"C:\Users\pc\Desktop\love-webpage\pic2.jpg"') }}" alt="Pic 2">
+            <img src="{{ url_for('static', filename='"C:\Users\pc\Desktop\love-webpage\pic3.jpg"') }}" alt="Pic 3">
     </div>
 </body>
 </html>
