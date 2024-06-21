@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love for My Girlfriend</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <audio autoplay loop>
-        <source src="{{ url_for('static', filename='audio/birthday_aud.mp3') }}" type="audio/mpeg">
+        <source src="{{ url_for('static', filename='birthday_aud') }}" type="audio/mp3">
     </audio>
     <div class="container">
         <h1>To My Beautiful Girlfriend</h1>
         <div class="message">
-            <p>You are the love of my life, and I cherish every moment with you.</p>
+            <p>Minni, you are the love of my life, and I cherish every moment with you.</p>
             <p>You are perfect just the way you are, and I love you more than anything!</p>
             <p>I'm so sorry for everything, and I hope this small gesture shows how much I care.</p>
             
@@ -21,15 +21,12 @@
 
 I really need to clear the air and make things right. You're too important to me to leave things like this.</p>
         </div>
-        <div class="love-calculator">
-            <p>Our Love Calculator says we love each other <strong>{{ love_percentage }}%</strong>!</p>
-        </div>
+       
         <div class="gallery">
             <h2>Your Memories</h2>
             <img src="{{ url_for('static', filename='pic1') }}" alt="Pic 1">
             <img src="{{ url_for('static', filename='pic2') }}" alt="Pic 2">
             <img src="{{ url_for('static', filename='pic3') }}" alt="Pic 3">
     </div>
-    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
