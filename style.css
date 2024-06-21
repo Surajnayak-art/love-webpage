@@ -6,7 +6,7 @@ body {
     padding: 0;
     overflow-x: hidden; /* Allow vertical scrolling */
     position: relative;
-    background: url('img.png') no-repeat center center fixed;
+    background: url('"C:\Users\pc\Desktop\love-webpage\img.png"') no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -35,16 +35,6 @@ h1 {
     color: #0a043c; /* Dark blue */
 }
 
-.love-calculator {
-    font-size: 1.2em;
-    margin-top: 30px;
-    background-color: #fff3cd;
-    padding: 15px;
-    border-radius: 10px;
-    display: inline-block;
-    color: #0a043c; /* Dark blue */
-}
-
 .gallery {
     margin-top: 30px;
 }
@@ -54,15 +44,4 @@ h1 {
     height: auto;
     margin: 10px;
     border-radius: 10px;
-}
-
-.video-container {
-    margin-top: 20px;
-}
-
-video {
-    width: 80%;
-    border: 5px solid #fff;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
